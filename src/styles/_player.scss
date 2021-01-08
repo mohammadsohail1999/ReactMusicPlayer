@@ -39,6 +39,18 @@
     svg{
         cursor: pointer;
     }
+    .shuffle{
+        flex: 0;
+        transition: all .6s;
+        &:hover{
+            color: aqua;
+        }
+    }
+    .player-btn{
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 
